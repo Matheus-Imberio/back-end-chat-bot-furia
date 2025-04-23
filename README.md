@@ -44,7 +44,7 @@ git clone https://github.com/seu-user/back-end-chat-bot-furia.git
 
 ```bash
 npm install
-npm start:dev
+npm run start:dev
 ```
 3. Acesse no navegador:
 
