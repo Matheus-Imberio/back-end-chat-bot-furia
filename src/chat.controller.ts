@@ -79,4 +79,53 @@ export class ChatController {
       resposta: 'fallen'
     };
   }
+
+  @Get('art')
+getArt() {
+  return {
+    correta: false,
+    mensagem: 'Errado! A resposta certa é o **fallen**, conhecido como "O Professor".'
+  };
+}
+
+@Get('fallen')
+getFallen() {
+  return {
+    correta: true,
+    mensagem: 'Acertou! O **fallen** é conhecido como "O Professor" na FURIA.'
+  };
+}
+
+@Get('kscerato')
+getKscerato() {
+  return {
+    correta: false,
+    mensagem: 'Errado! A resposta certa é o **fallen**, conhecido como "O Professor".'
+  };
+}
+
+@Get('yuurih')
+getYuurih() {
+  return {
+    correta: false,
+    mensagem: 'Errado! A resposta certa é o **fallen**, conhecido como "O Professor".'
+  };
+}
+
+  @Get('menu')
+getMenu() {
+  return {
+    mensagem: 'Bem-vindo ao chatbot da FURIA! Aqui estão as opções disponíveis:',
+    opcoes: [
+      { comando: '/jogo', descricao: 'Informações sobre o próximo jogo da FURIA' },
+      { comando: '/ultimos', descricao: 'Resultados dos últimos jogos da FURIA' },
+      { comando: '/jogadores', descricao: 'Conheça os jogadores do time' },
+      { comando: '/clip', descricao: 'Assista a um clipe da FURIA em ação' },
+      { comando: '/frase', descricao: 'Receba uma frase motivacional da FURIA' },
+      { comando: '/ranking', descricao: 'Veja a posição atual da FURIA no ranking' },
+      { comando: '/loja', descricao: 'Acesse a loja oficial da FURIA' },
+      { comando: '/quiz', descricao: 'Teste seus conhecimentos sobre a FURIA' }
+    ]
+  };
+}
 }
