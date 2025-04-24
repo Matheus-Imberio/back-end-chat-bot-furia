@@ -117,14 +117,14 @@ getMenu() {
   return {
     mensagem: 'Bem-vindo ao chatbot da FURIA! Aqui estão as opções disponíveis:',
     opcoes: [
-      { comando: '/jogo', descricao: 'Informações sobre o próximo jogo da FURIA' },
-      { comando: '/ultimos', descricao: 'Resultados dos últimos jogos da FURIA' },
-      { comando: '/jogadores', descricao: 'Conheça os jogadores do time' },
-      { comando: '/clip', descricao: 'Assista a um clipe da FURIA em ação' },
-      { comando: '/frase', descricao: 'Receba uma frase motivacional da FURIA' },
-      { comando: '/ranking', descricao: 'Veja a posição atual da FURIA no ranking' },
-      { comando: '/loja', descricao: 'Acesse a loja oficial da FURIA' },
-      { comando: '/quiz', descricao: 'Teste seus conhecimentos sobre a FURIA' }
+      { comando: 'jogo', descricao: 'Informações sobre o próximo jogo da FURIA' },
+      { comando: 'ultimos', descricao: 'Resultados dos últimos jogos da FURIA' },
+      { comando: 'jogadores', descricao: 'Conheça os jogadores do time' },
+      { comando: 'clip', descricao: 'Assista a um clipe da FURIA em ação' },
+      { comando: 'frase', descricao: 'Receba uma frase motivacional da FURIA' },
+      { comando: 'ranking', descricao: 'Veja a posição atual da FURIA no ranking' },
+      { comando: 'loja', descricao: 'Acesse a loja oficial da FURIA' },
+      { comando: 'quiz', descricao: 'Teste seus conhecimentos sobre a FURIA' }
     ]
   };
 }
