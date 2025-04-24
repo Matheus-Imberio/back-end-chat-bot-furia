@@ -117,7 +117,7 @@ getMenu() {
   return {
     mensagem: 'Bem-vindo ao chatbot da FURIA! Aqui estão as opções disponíveis:',
     opcoes: [
-      { comando: 'jogo', descricao: 'Informações sobre o próximo jogo da FURIA' },
+      { comando: 'jogo', descricao: 'Informações sobre alguma partida da FURIA' },
       { comando: 'ultimos', descricao: 'Resultados dos últimos jogos da FURIA' },
       { comando: 'jogadores', descricao: 'Conheça os jogadores do time' },
       { comando: 'clip', descricao: 'Assista a um clipe da FURIA em ação' },
